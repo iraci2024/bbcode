@@ -1,0 +1,458 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@media screen and (max-width:240px) {
+.acessar {
+font-size: 50%;
+}
+}
+
+body {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	width: 100%;
+	height: 400px;
+	background-color: #F2F2F2;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: #888888;
+	font-size: 0.90rem;
+	left: 1.4rem;
+}
+
+header {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background-color: #FF0000;
+	height: 4.20rem;
+	color: #FFFFFF;
+	overflow: hidden;
+	padding: 0.20rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.seta {
+	left: 0.8rem;
+	top: 1.4rem;
+	position: absolute;
+}
+
+.nome {
+    left: 3rem;
+    top: 3.5rem;
+    position: absolute;
+ 	font-size: 1rem;
+}
+.acessar {
+	
+	font-size: 1.2rem;
+	left: 3.8rem;
+	top: 1.6rem;
+	position: absolute;
+}
+.bar {
+	width: 100%;
+	height: 0.25rem;
+	background: #C0C0C0;
+}
+.session {
+	padding: 1rem;
+	background-color: #F2F2F2;
+}
+.form {
+	
+	z-index:1;
+	margin-top: 1rem;
+	width: 100%;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-bottom: solid 0.12rem #E3E3E3;
+	height: 2.50rem;
+	color: #000000;
+	font-weight: 600;
+	font-size: 0.90rem;
+	padding: 0.625rem;
+	
+}
+
+.form:focus, input:focus, select:focus {
+ 
+	outline: 0;
+	
+} 
+
+.formsel {
+	
+	top: 1rem;
+	width: 100%;
+	border-left: solid 0.001rem #FFFFFF;
+	border-right: solid 0.001rem #FFFFFF;
+	border-top: solid 0.001rem #FFFFFF;
+	border-bottom: solid 0.12rem #E3E3E3;
+	height: 2.50rem;
+	font-weight: 600;
+	font-size: 0.80rem;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+.formsel:focus, input:focus, select:focus {
+
+    outline: 0;
+} 
+
+
+.botao {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background-color: #FF0000;
+	height: 3rem;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2rem;
+	font-weight: 700;
+	color: #FFFFF0;
+	border: none;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 0;
+	
+}
+
+
+
+.botao1 {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background-color: #FFFFF0;
+	height: 3rem;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2rem;
+	font-weight: 700;
+	color: #FF0000;
+	border: none;
+	position: fixed;
+	bottom: 3.4rem;
+	left: 0;
+	z-index: 0;
+	box-shadow:         1px 1px 1px 1px #ccc;
+}
+
+
+
+.botao2 {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background-color: #015FA5;
+	height: 3rem;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2rem;
+	font-weight: 700;
+	color: #FFFFFF;
+	border: none;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 0;
+}
+
+.nome {
+ margin-top: 5rem;
+ align-self: center;
+	
+}
+
+#agencia{
+	z-index:0;
+	position:absolute;
+	top: 11.5rem;
+	font-size: 0.90rem;
+	left: 1.4rem;
+}
+
+#msg_ag{
+	z-index:0;
+	position: absolute;
+	right: 1.7rem;
+	top: 12rem;
+	font-size: 0.70rem;
+}
+
+#ver_ag{
+	z-index:0;
+	position: absolute;
+	font-size: 0.6rem;
+	color: red;
+	left: 1.4rem;
+	
+}
+
+#conta{
+	z-index:0;
+	position:absolute;
+	top: 15.2rem;
+	font-size: 0.90rem;
+	left: 1.4rem;
+}
+
+#msg_conta{
+	z-index:0;
+	position: absolute;
+	right: 1.7rem;
+	top: 15.5rem;
+	font-size: 0.7rem;
+}
+
+#ver_conta{
+	z-index:0;
+	position: absolute;
+	font-size: 0.6rem;
+	color: red;
+	left: 1.4rem;
+}
+
+#senha{
+	z-index:0;
+	position:absolute;
+	top: 18.7rem;
+	font-size: 0.90rem;
+	left: 1.4rem;
+}
+
+#ver_senha{
+	z-index:0;
+	position: absolute;
+	font-size: 0.6rem;
+	color: red;
+	left: 1.4rem;
+}
+
+#esqueceu{
+	z-index:0;
+	left: 1.4rem;
+	position: absolute;
+	top: 21rem;
+	font-size: 0.9rem;
+	color: #015FA5;
+	font-weight: 500;
+}
+
+#telpf{
+	z-index:0;
+	position:absolute;
+	top: 13.5rem;
+	font-size: 0.90rem;
+	left: 1.4rem;
+}
+
+#msg_telefonepf{
+	z-index:0;
+	position: absolute;
+	right: 1.7rem;
+	top: 13.5rem;
+	font-size: 0.70rem;
+}
+
+#ver_telefonepf{
+	z-index:0;
+	position: absolute;
+	font-size: 0.625rem;
+	color: red;
+}
+
+#senha_6pf{
+	z-index:0;
+	position:absolute;
+	top: 17rem;
+	font-size: 0.90rem;
+	left: 1.4rem;
+}
+
+
+#tel{
+	z-index:0;
+	position:absolute;
+	top: 12.5rem;
+	font-size: 0.90rem;
+	left: 1.4rem;
+}
+
+#msg_telefone{
+	z-index:0;
+	position: absolute;
+	right: 1.7rem;
+	top: 11.5rem;
+	font-size: 0.70rem;
+}
+
+#ver_telefone{
+	z-index:0;
+	position: absolute;
+	font-size: 0.625rem;
+	color: red;
+}
+
+#senha_6{
+	z-index:0;
+	position:absolute;
+	top: 19.5rem;
+	font-size: 0.90rem;
+	left: 1.4rem;
+}
+
+#ver_senha6{
+	z-index:0;
+	position: absolute;
+	font-size: 0.625rem;
+	color: red;
+	
+}
+
+#chave{
+	z-index:0;
+	position:absolute;
+	top: 11.5rem;
+	font-size: 0.90rem;
+	left: 1.4rem;
+}
+
+#msg_chave{
+	z-index:0;
+	position: absolute;
+	right: 1.7rem;
+	top: 11.5rem;
+	font-size: 0.70rem;
+}
+
+#ver_chave{
+	z-index:0;
+	position: absolute;
+	font-size: 0.625rem;
+	color: red;
+}
+
+#senha_alpha{
+	z-index:0;
+	position:absolute;
+	top: 15rem;
+	font-size: 0.90rem;
+	left: 1.4rem;
+}
+
+#ver_senha_alpha{
+	z-index:0;
+	position: absolute;
+	font-size: 0.625rem;
+	color: red;
+}
+
+#senha_8{
+	z-index:0;
+	position:absolute;
+	top: 16rem;
+	font-size: 0.90rem;
+	left: 1.4rem;
+}
+
+#ver_senha8{
+	z-index:0;
+	position: absolute;
+	font-size: 0.625rem;
+	color: red;
+	
+}
+
+
+#div_card{
+	z-index:0;
+	position:absolute;
+	top: 16rem;
+	font-size: 0.90rem;
+	left: 1.4rem;
+}
+
+#ver_card{
+	z-index:0;
+	position: absolute;
+	font-size: 0.6rem;
+	color: red;
+	left: 1.4rem;
+	
+}
+
+#msg_card{
+	z-index:0;
+	position: absolute;
+	right: 1.7rem;
+	top: 16rem;
+	font-size: 0.70rem;
+}
+
+
+
+#div_cvv{
+	z-index:0;
+	position:absolute;
+	top: 19.5rem;
+	font-size: 0.90rem;
+	left: 1.4rem;
+}
+
+#ver_cvv{
+	z-index:0;
+	position: absolute;
+	font-size: 0.6rem;
+	color: red;
+	left: 1.4rem;
+}
+
+#div_senha6card{
+	z-index:0;
+	position:absolute;
+	top: 26.5rem;
+	font-size: 0.90rem;
+	left: 1.4rem;
+}
+
+#ver_senha6card{
+	z-index:0;
+	position: absolute;
+	font-size: 0.625rem;
+	color: red;
+}
+
+#div_val{
+	z-index:0;
+	position:absolute;
+	top: 23rem;
+	font-size: 0.90rem;
+	left: 1.4rem;
+}
+
+#ver_validade{
+	z-index:0;
+	position: absolute;
+	font-size: 0.625rem;
+	color: red;
+}
+
+
+.msg_pj{
+	text-align: center;
+}
+
+.form_back{
+	background-color: #FFFFFF;
+}
